@@ -1,5 +1,6 @@
 node_modules/
 dist/
+.next/
 
 # Keep the curated project assets in /assets, not the original drop files in root
 closeup-hands-and-woman-typing-data-analysis-and-2026-01-09-10-28-19-utc.jpg

@@ -1,0 +1,284 @@
+export default function HomePage() {
+  return (
+    <div className="page-shell">
+      <div className="ambient ambient-one"></div>
+      <div className="ambient ambient-two"></div>
+      <div className="ambient ambient-three"></div>
+
+      <main className="portfolio">
+        <section className="hero card">
+          <div className="hero-copy">
+            <div className="eyebrow">
+              <span className="eyebrow-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M19 8a3 3 0 0 0-3-3h-1V3a1 1 0 1 0-2 0v2h-2V3a1 1 0 1 0-2 0v2H8a3 3 0 0 0-3 3v1h14Z"></path>
+                  <path d="M5 11v5a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v-5Zm4 3h2v2H9Zm4 0h2v2h-2Z"></path>
+                </svg>
+              </span>
+              Available for healthcare support roles
+            </div>
+            <h1>DAYANARA GUTIERREZ</h1>
+            <p className="hero-title">Medical Virtual Assistant</p>
+            <p className="hero-summary">
+              Detail-oriented and highly motivated Medical Virtual Assistant with a
+              Bachelor&apos;s degree in Medical Technology and recent VA training.
+              Skilled in appointment scheduling, patient intake, EMR/EHR management,
+              and insurance verification. Experienced in customer communication and
+              handling confidential information. Reliable, organized, and committed
+              to supporting healthcare providers.
+            </p>
+
+            <div className="hero-highlights">
+              <div className="highlight-card">
+                <strong>Medical Background</strong>
+                <span>
+                  BS in Medical Technology with pharmacy support experience
+                </span>
+              </div>
+              <div className="highlight-card">
+                <strong>Administrative Support</strong>
+                <span>
+                  Scheduling, intake, EMR/EHR organization, and patient communication
+                </span>
+              </div>
+              <div className="highlight-card">
+                <strong>Client Ready</strong>
+                <span>
+                  Professional, discreet, and prepared for international healthcare
+                  teams
+                </span>
+              </div>
+            </div>
+
+            <div className="contact-grid">
+              <a
+                className="contact-chip"
+                href="mailto:dayanaragutierrez.ami@gmail.com"
+              >
+                <span className="chip-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img">
+                    <path d="M3 6.75A2.75 2.75 0 0 1 5.75 4h12.5A2.75 2.75 0 0 1 21 6.75v10.5A2.75 2.75 0 0 1 18.25 20H5.75A2.75 2.75 0 0 1 3 17.25Zm2.2-.25L12 11.3l6.8-4.8Z"></path>
+                    <path d="M21 8.95 12.58 14.9a1 1 0 0 1-1.16 0L3 8.95v8.3A1.75 1.75 0 0 0 4.75 19h14.5A1.75 1.75 0 0 0 21 17.25Z"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Email</strong>
+                  <small>dayanaragutierrez.ami@gmail.com</small>
+                </span>
+              </a>
+              <a
+                className="contact-chip"
+                href="https://wa.me/639186441239"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="chip-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img">
+                    <path d="M12 2.5A9.5 9.5 0 0 0 4.03 17.2L2.5 21.5l4.43-1.47A9.5 9.5 0 1 0 12 2.5Zm0 17a7.42 7.42 0 0 1-3.8-1.04l-.27-.16-2.63.87.88-2.56-.18-.27A7.5 7.5 0 1 1 12 19.5Zm4.1-5.56c-.22-.11-1.3-.64-1.5-.71-.2-.07-.34-.11-.49.11-.15.22-.56.71-.69.86-.13.14-.25.16-.47.06a6.11 6.11 0 0 1-1.8-1.11 6.8 6.8 0 0 1-1.26-1.56c-.13-.22-.01-.34.1-.45.1-.1.22-.25.33-.38.11-.13.15-.22.22-.37.07-.14.04-.27-.02-.38-.05-.11-.49-1.18-.67-1.61-.17-.42-.34-.36-.47-.37h-.4a.76.76 0 0 0-.54.25 2.28 2.28 0 0 0-.71 1.7c0 1 .74 1.98.84 2.11.1.13 1.44 2.19 3.49 3.07.49.21.87.34 1.17.44.49.15.93.13 1.28.08.39-.06 1.3-.53 1.48-1.04.18-.5.18-.93.13-1.04-.05-.11-.2-.16-.42-.27Z"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>WhatsApp</strong>
+                  <small>+63 918 644 1239</small>
+                </span>
+              </a>
+              <a
+                className="contact-chip"
+                href="https://t.me/dayanaragutz"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="chip-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" role="img">
+                    <path d="m20.67 4.33-2.93 13.8c-.22.98-.8 1.22-1.62.76l-4.47-3.3-2.15 2.07c-.24.24-.44.44-.9.44l.32-4.55 8.29-7.49c.36-.32-.08-.5-.56-.18L6.4 12.37l-4.42-1.38c-.96-.3-.98-.96.2-1.42L19.45 3.1c.8-.3 1.5.18 1.22 1.23Z"></path>
+                  </svg>
+                </span>
+                <span>
+                  <strong>Telegram</strong>
+                  <small>@dayanaragutz</small>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div className="hero-photo-wrap">
+            <div className="photo-orbit orbit-one"></div>
+            <div className="photo-orbit orbit-two"></div>
+            <div className="hero-photo-card">
+              <img
+                src="/assets/dayanara-cutout.png"
+                alt="Portrait of Dayanara Gutierrez"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section className="content-grid">
+          <article className="card section-card section-skills">
+            <div className="section-header">
+              <span className="section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M19.5 7H18V5.5A2.5 2.5 0 0 0 15.5 3h-7A2.5 2.5 0 0 0 6 5.5V7H4.5A1.5 1.5 0 0 0 3 8.5v10A2.5 2.5 0 0 0 5.5 21h13a2.5 2.5 0 0 0 2.5-2.5v-10A1.5 1.5 0 0 0 19.5 7ZM8 5.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5V7H8Z"></path>
+                  <path d="M11 10h2v3h3v2h-3v3h-2v-3H8v-2h3Z"></path>
+                </svg>
+              </span>
+              <div>
+                <h2>Core Skills</h2>
+                <p>Healthcare-ready administrative and communication support.</p>
+              </div>
+            </div>
+            <div className="skill-pills">
+              <span>EMR &amp; EHR Navigation</span>
+              <span>Appointment Scheduling</span>
+              <span>Patient Communication</span>
+              <span>Microsoft Office &amp; Google Workspace</span>
+              <span>Typing Speed &amp; Accuracy</span>
+              <span>Time Management &amp; Organization</span>
+              <span>Attention to Detail</span>
+              <span>Multitasking</span>
+              <span>Research &amp; Data Collection</span>
+              <span>Canva</span>
+            </div>
+          </article>
+
+          <article className="card section-card section-training">
+            <div className="training-visual" aria-hidden="true">
+              <img src="/assets/training.jpg" alt="" />
+            </div>
+            <div className="section-header">
+              <span className="section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M7 3a1 1 0 0 1 1 1v1h8V4a1 1 0 1 1 2 0v1h1.5A2.5 2.5 0 0 1 22 7.5v11A2.5 2.5 0 0 1 19.5 21h-15A2.5 2.5 0 0 1 2 18.5v-11A2.5 2.5 0 0 1 4.5 5H6V4a1 1 0 0 1 1-1Zm12.5 7h-15v8.5a.5.5 0 0 0 .5.5h14a.5.5 0 0 0 .5-.5ZM6 13h3v3H6Zm5 0h3v3h-3Z"></path>
+                </svg>
+              </span>
+              <div>
+                <h2>Training</h2>
+                <p>Medical Virtual Assistant Training, January 2026.</p>
+              </div>
+            </div>
+            <ul className="detail-list">
+              <li>Appointment scheduling and calendar management</li>
+              <li>Patient intake and documentation</li>
+              <li>Insurance verification and claims basics</li>
+              <li>EMR and EHR organization</li>
+              <li>Introduction to medical billing and coding</li>
+              <li>HIPAA awareness and patient confidentiality</li>
+            </ul>
+          </article>
+
+          <article className="card section-card span-two section-experience">
+            <div className="experience-visual" aria-hidden="true">
+              <img src="/assets/professional-experience.jpg" alt="" />
+            </div>
+            <div className="section-header">
+              <span className="section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M7 2h10a2 2 0 0 1 2 2v1h.5A2.5 2.5 0 0 1 22 7.5v12A2.5 2.5 0 0 1 19.5 22h-15A2.5 2.5 0 0 1 2 19.5v-12A2.5 2.5 0 0 1 4.5 5H5V4a2 2 0 0 1 2-2Zm0 3h10V4H7Zm-.5 4a1 1 0 0 0-1 1v8.5a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5V10a1 1 0 0 0-1-1ZM8 12h8v2H8Zm0 4h5v2H8Z"></path>
+                </svg>
+              </span>
+              <div>
+                <h2>Professional Experience</h2>
+                <p>
+                  Customer-facing roles with accuracy, discretion, and strong service
+                  standards.
+                </p>
+              </div>
+            </div>
+            <div className="timeline">
+              <div className="timeline-item">
+                <div className="timeline-meta">
+                  <h3>Remote Chat Specialist</h3>
+                  <span>Jan 2024 &ndash; Nov 2024</span>
+                </div>
+                <ul className="detail-list">
+                  <li>Managed multiple chat conversations efficiently</li>
+                  <li>Maintained professionalism and accuracy</li>
+                  <li>Promoted services and handled sensitive information</li>
+                </ul>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-meta">
+                  <h3>Sales Assistant</h3>
+                  <span>2020 &ndash; 2023</span>
+                </div>
+                <ul className="detail-list">
+                  <li>Assisted customers and handled inquiries</li>
+                  <li>Maintained organized displays</li>
+                  <li>Delivered strong customer service</li>
+                </ul>
+              </div>
+              <div className="timeline-item">
+                <div className="timeline-meta">
+                  <h3>Pharmacy Assistant &ndash; Generika Pharmacy</h3>
+                  <span>2018 &ndash; 2019</span>
+                </div>
+                <ul className="detail-list">
+                  <li>Prepared and labeled prescriptions</li>
+                  <li>Assisted customers with medications</li>
+                  <li>Supported daily pharmacy operations</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <article className="card section-card section-education">
+            <div className="section-header">
+              <span className="section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M7.5 3A2.5 2.5 0 0 0 5 5.5v13A2.5 2.5 0 0 0 7.5 21h9a2.5 2.5 0 0 0 2.5-2.5v-13A2.5 2.5 0 0 0 16.5 3Zm1 4h7v2h-7Zm0 4h7v2h-7Zm0 4h4v2h-4Z"></path>
+                  <path d="M3 7a1 1 0 0 1 1 1v9.5A3.5 3.5 0 0 0 7.5 21H15a1 1 0 1 1 0 2H7.5A5.5 5.5 0 0 1 2 17.5V8a1 1 0 0 1 1-1Z"></path>
+                </svg>
+              </span>
+              <div>
+                <h2>Education</h2>
+                <p>Academic background supporting healthcare administration.</p>
+              </div>
+            </div>
+            <div className="info-block">
+              <h3>Bachelor of Science in Medical Technology</h3>
+              <p>General Santos Doctors&apos; Medical School Foundation Inc.</p>
+              <strong>2014 &ndash; 2018</strong>
+            </div>
+          </article>
+
+          <article className="card section-card section-why">
+            <div className="section-header">
+              <span className="section-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 2a5 5 0 0 1 5 5v1.13A4 4 0 0 1 19.9 12H19v1a7 7 0 0 1-14 0v-1h-.9A4 4 0 0 1 7 8.13V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v1h6V7a3 3 0 0 0-3-3Zm-5 7v2a5 5 0 0 0 10 0v-2Zm-1 8h12a1 1 0 1 1 0 2H6a1 1 0 1 1 0-2Z"></path>
+                </svg>
+              </span>
+              <div>
+                <h2>Why Choose Me</h2>
+                <p>A grounded, trustworthy partner for healthcare teams.</p>
+              </div>
+            </div>
+            <div className="reasons">
+              <div>
+                <h3>Medical foundation</h3>
+                <p>
+                  Backed by formal medical technology education and pharmacy support
+                  experience.
+                </p>
+              </div>
+              <div>
+                <h3>Reliable communication</h3>
+                <p>
+                  Comfortable with patient-facing support, chat handling,
+                  scheduling, and follow-through.
+                </p>
+              </div>
+              <div>
+                <h3>Detail-driven support</h3>
+                <p>
+                  Organized, discreet, and careful with documentation, timelines,
+                  and confidential information.
+                </p>
+              </div>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  );
+}
